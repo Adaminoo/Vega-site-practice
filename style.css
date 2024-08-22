@@ -1,0 +1,13 @@
+.topnav {
+    border-bottom:solid;
+    padding: 50px;
+}
+
+.sidenav {
+    border-right:solid;
+    border-color:gray;
+    height:100vh;
+    width:100px;
+    margin:0;
+    padding:50px;
+}

@@ -1,11 +1,14 @@
 .topnav {
     border-bottom:solid;
+    border-color:lightgray;
+    border-width:2px;
     padding: 50px;
 }
 
 .sidenav {
     border-right:solid;
-    border-color:gray;
+    border-color:lightgray;
+    border-width:2px;
     height:100vh;
     width:100px;
     margin:0;

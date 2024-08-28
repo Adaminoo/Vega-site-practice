@@ -20,11 +20,12 @@ img {
 }
 
 .navbar {
-    padding:20px;
-    border-bottom:2px solid lightgray;
     display:flex;
-    flex-direction: row;
-    width:100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    height:60px;
+    align-items: center;
+    border-bottom:1px lightgray;
 }
 
 .fa-regular {
@@ -40,4 +41,23 @@ img {
 .navlogo {
     width:30px;
     height:30px;
+}
+
+.main {
+    display:flex;
+}
+
+.left {
+    background-color: burlywood;
+    flex-grow:1;
+}
+
+.right {
+    background-color: darkslateblue;
+    flex-grow:3;
+}
+
+.farright {
+    background-color: indigo;
+    flex-grow:1;
 }

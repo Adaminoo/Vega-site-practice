@@ -1,15 +1,30 @@
+/*
+Should not be defined as hard variables, meant to be reusable code
+*/
+.cardelement {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid #dadfea;
+  padding: 20px;
+}
+
 body {
   margin: 0;
 }
 
 .container {
   width: 80%;
-  background-color: #dadfea;
+  background-color: #EA3729;
 }
 .container a {
-  color: #dadfea;
+  color: #489BED;
 }
 
 .badge {
   color: purple;
+}
+
+.cardelement {
+  width: 30%;
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */

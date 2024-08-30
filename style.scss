@@ -1,4 +1,13 @@
-$mygray: #dadfea;
+@use 'base';
+/*
+Should not be defined as hard variables, meant to be reusable code
+*/
+%card { 
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #dadfea;
+    padding:20px;
+}
 
 body {
     margin:0;
@@ -6,13 +15,19 @@ body {
 
 .container {
     width:80%;
-    background-color: $mygray;
+    background-color: base.$alertred;
 
     a {
-        color:$mygray;
+        color:base.$vegablue;
     }
 }
 
 .badge {
     color:purple;
+}
+
+.cardelement {
+    @extend %card;
+    width:30%;
+    height:50px;
 }

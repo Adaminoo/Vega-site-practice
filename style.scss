@@ -1,0 +1,18 @@
+$mygray: #dadfea;
+
+body {
+    margin:0;
+}
+
+.container {
+    width:80%;
+    background-color: $mygrayw;
+
+    a {
+        color:$mygray;
+    }
+}
+
+.badge {
+    color:purple;
+}
